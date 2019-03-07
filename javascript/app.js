@@ -21,7 +21,7 @@ $("#add-game").on("click", function(event) {
     event.preventDeffault();
     var vgGame = $("game-input").val().trim();
     vgGame.push(vgGame);
-    makeButton;
+    makeButton();
 }); 
-
+makeButton();
 
