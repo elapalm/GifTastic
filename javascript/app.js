@@ -11,8 +11,8 @@ function (makeButton); {
 
     var a = $("<button>");
     a.addClass("vgButton");
-    a.attr("game-data", games[i]);
-    a.text(games[i])
+    a.attr("game-data", items[i]);
+    a.text(items[i])
     $("buttons").append(a);
     }
 }
