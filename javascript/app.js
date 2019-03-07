@@ -3,7 +3,7 @@ var items = ["Mario Bros.", "Halo", "Angry Birds", "Minecraft", "Sonic the Hedge
 
 //making the buttons
 
-function = (makeButton) {
+function (makeButton); {
 
     $("#buttons").empty();
 
