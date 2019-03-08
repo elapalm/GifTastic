@@ -11,6 +11,8 @@ var items = ["Mario Bros.", "Halo", "Angry Birds", "Minecraft", "Sonic the Hedge
         method: "GET"
     }).then(function(response) {
         var gameRating = ('<div class="game-rating">');
+        
+        var rating = response.rated;
 
 }
 //making the buttons
