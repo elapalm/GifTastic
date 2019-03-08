@@ -1,8 +1,18 @@
 //The initial buttons on the page. Theme: Video Games.
 var items = ["Mario Bros.", "Halo", "Angry Birds", "Minecraft", "Sonic the Hedgehog", "Skull Monkies"];
 
-var queryURL = "http://api.giphy.com/v1/gifs/search?q=ryan+gosling&api_key=O6oRTuA1g25yXcfN1ELtk7n3mB3fzOQR&limit=10"
 
+// function showVideoGames() {
+    var videoGame = $("this").attr("data-name");
+    var queryURL = "http://api.giphy.com/v1/gifs/search?q=ryan+gosling&api_key=O6oRTuA1g25yXcfN1ELtk7n3mB3fzOQR&limit=10"
+    
+    $.ajax({
+        url: queryURL,
+        method: "GET"
+    }).then(function(response) {
+        var gameRating = ('<div class="game-rating">');
+
+}
 //making the buttons
 
 function makeBUttons() {
