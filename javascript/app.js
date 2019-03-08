@@ -14,7 +14,7 @@ var items = ["Mario Bros.", "Halo", "Angry Birds", "Minecraft", "Sonic the Hedge
         
         var rating = response.rated;
 
-}
+};
 //making the buttons
 
 function makeBUttons() {
