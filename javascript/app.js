@@ -1,7 +1,7 @@
 //The initial buttons on the page. Theme: Video Games.
 var items = ["Mario Bros.", "Halo", "Angry Birds", "Minecraft", "Sonic the Hedgehog", "Skull Monkies"];
 
-var queryURL = "https://api.giphy.com/v1/gifs/random?api_key=O6oRTuA1g25yXcfN1ELtk7n3mB3fzOQR&tag=video-games";
+var queryURL = "http://api.giphy.com/v1/gifs/search?q=ryan+gosling&api_key=O6oRTuA1g25yXcfN1ELtk7n3mB3fzOQR&limit=10"
 
 //making the buttons
 
