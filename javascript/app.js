@@ -2,19 +2,20 @@
 var items = ["Mario Bros.", "Halo", "Angry Birds", "Minecraft", "Sonic the Hedgehog", "Skull Monkies"];
 
 
-// function showVideoGames() {
+ function showVideoGames() {
     var videoGame = $("this").attr("data-name");
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=ryan+gosling&api_key=O6oRTuA1g25yXcfN1ELtk7n3mB3fzOQR&limit=10"
+    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + items + "&api_key=O6oRTuA1g25yXcfN1ELtk7n3mB3fzOQR&limit=10"
     
     $.ajax({
         url: queryURL,
         method: "GET"
-    }).then(function(response) {
+    })
+    .then(function(response) {
         var gameRating = ('<div class="game-rating">');
         
         var rating = response.rated;
 
-};
+    });
 //making the buttons
 
 function makeBUttons() {
