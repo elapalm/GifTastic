@@ -40,3 +40,4 @@ $("#add-game").on("click", function(event) {
 }); 
 makeBUttons();
 
+ };
