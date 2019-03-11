@@ -13,13 +13,13 @@ var items = ["Mario Bros.", "Halo", "Angry Birds", "Minecraft", "Sonic the Hedge
 
     for (var i = 0; i < items.length; i++); {
 
-    var a = $("<button>");
+    var newButton = $("<button>");
     button.addClass("vgButton");
     button.attr("game-data", items[i]);
     button.text(items[i]);
-    $("buttons").append(a);
+    $("buttons").append(newButton);
     }
-}
+};
   
 
 $("#add-game").on("click", function(event) {
