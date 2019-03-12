@@ -7,10 +7,8 @@ function makeButtons() {
 
     for (var i = 0; i < items.length; i++); {
 
-    var newButton = $("<button>").text(items[i])
-    button.addClass("vgButton")
-    button.attr("game-data", items[i])
-    $("buttons").append(newButton)
+    var newButton = $("<button>").text(items[i]).attr("game-data", items[i]).addClass("vgButton");
+    $("#vgButtons").append(newButton)
     }
 };
  
