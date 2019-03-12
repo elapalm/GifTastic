@@ -26,15 +26,11 @@ function makeButtons() {
      
      for (var i = 0; i < results.length; i==);
           var gifsDiv = $("#<div>").addClass("gifs-div");
-           var rating = $("<h3>").html("Rating" + results[i].rating);
+          var rating = $("<h3>").html("Rating" + results[i].rating);
+          var still = results[i].images.fixed_height_still.url;
+     var animate = results[i].images.fixed_height.url;
 
-    $("#add-game").on("click", function(event) {
-      event.preventDeffault();
-      var vgGame = $("game-input").val().trim();
-      vgGame.push(vgGame);
-      makeButtons();
-}); 
-makeButtons();
+
 
     
     
