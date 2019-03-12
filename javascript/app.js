@@ -28,7 +28,19 @@ function makeButtons() {
           var gifsDiv = $("#<div>").addClass("gifs-div");
           var rating = $("<h3>").html("Rating" + results[i].rating);
           var still = results[i].images.fixed_height_still.url;
-     var animate = results[i].images.fixed_height.url;
+          var animate = results[i].images.fixed_height.url;
+          var vgGif = $("<img>").addClass("vg-gif").attr({"src": still, "data-still": still, "data-animate": animate, "data-state": "still"});
+          gifsDiv.append(vgGif).append(rating);
+          $("#vgGifs").append(gifsDiv);
+    }
+           
+  });
+  
+ }
+
+$(document).on("click", "vgButton", showVideoGames);
+$(document).on("click", "vgButton", );
+
 
 
 
