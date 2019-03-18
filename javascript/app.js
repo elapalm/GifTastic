@@ -12,7 +12,6 @@ function makeButtons() {
         console.log(newButton);
     }
 };
-/*
 // giphy search
 function showVideoGames() {
     $("#vgGifs").empty();
@@ -24,7 +23,6 @@ function showVideoGames() {
         method: "GET"
     }).done(function (response) 
 };
-/*
 //adding new buttons aanad ratings for searches
         var guestSearch = response.data;
 
