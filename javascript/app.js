@@ -12,7 +12,7 @@ function makeButtons() {
         console.log(newButton);
     }
 };
-    // giphy search
+    //giphy search
 function showVideoGames() {
     $("#vgGifs").empty();
     var videoGame = $("this").attr("data-name");
