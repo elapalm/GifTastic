@@ -1,7 +1,7 @@
-//The initial buttons on the page. Theme: Video Games.
+    //The initial buttons on the page. Theme: Video Games.
 var items = ["Mario Bros.", "Halo", "Angry Birds", "Minecraft", "Sonic the Hedgehog", "Skull Monkies"];
 
-//making the buttons
+    //making the buttons
 function makeButtons() {
     $("#buttons").empty();
 
@@ -12,7 +12,7 @@ function makeButtons() {
         console.log(newButton);
     }
 };
-// giphy search
+    // giphy search
 function showVideoGames() {
     $("#vgGifs").empty();
     var videoGame = $("this").attr("data-name");
@@ -23,7 +23,7 @@ function showVideoGames() {
         method: "GET"
     }).done(function (response) 
 };
-//adding new buttons aanad ratings for searches
+    //adding new buttons aanad ratings for searches
         var guestSearch = response.data;
 
         for (var i = 0; i < results.length; i++);
